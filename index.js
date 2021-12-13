@@ -4,7 +4,7 @@ $(document).ready(function() {
   xhr.open("GET", "https://restcountries.com/v3.1/all");
 
   let country = [];
-  xhr.onload = function (res) {
+  xhr.onload = function () {
     const data = JSON.parse(this.response)
     data.forEach((item, index) => {
       country.push([item?.flags?.png || '-']);

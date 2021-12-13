@@ -1,0 +1,21 @@
+@import url('./reset.css');
+
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background-color: #e5e5e5;
+}
+
+table{
+  font-family: 'Readex Pro', sans-serif !important;
+}
+
+.wrapper{
+    margin: 50px auto;
+    background-color: pink;
+    width: 1200px;
+    height: 1000px;
+    text-align: center;
+}
+
+
